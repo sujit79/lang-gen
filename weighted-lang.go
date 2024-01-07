@@ -32,4 +32,5 @@ func main() {
 	score := Sentiment(text)
 	f, _ := os.Create(args[2])
 	f.WriteString(fmt.Sprintf("%d", score))
+	f.Close()
 }
