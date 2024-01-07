@@ -10,10 +10,10 @@ Designed to parse large text and provide weight or Sentiment of Text.
 3. go build <br/>
 
 # Usage
-1. go run weighted-lang.go $(FILE_LOCATION) $(FILE_LOCATION).weight OR <br/>
-2. Linux weighted-lang $(FILE_LOCATION) $(FILE_LOCATION).weight OR <br/>
-3. Windows weighted-lang.exe $(FILE_LOCATION) $(FILE_LOCATION).weight OR <br/>
+1. go run weighted-lang.go ARGUMENT_FILE_LOCATION ARGUMENT_FILE_LOCATION.weight OR <br/>
+2. Linux weighted-lang ARGUMENT_FILE_LOCATION ARGUMENT_FILE_LOCATION.weight OR <br/>
+3. Windows weighted-lang.exe ARGUMENT_FILE_LOCATION ARGUMENT_FILE_LOCATION.weight OR <br/>
 
 # Output
-Shared as $(PATH_TO_FILE).weight <br/>
+Shared as ARGUMENT_FILE_LOCATION.weight <br/>
 
